@@ -1,0 +1,34 @@
+#header{box-shadow:0 2px 8px rgba(230,230,230,0.75); border-bottom: 1px solid #f1f1f1 }
+
+#main{width: 1280px; height: auto; margin: 0 auto;}
+#main .choose{padding-top: 26px;}
+    .choose ul li{padding-top: 12px; border-bottom: 1px solid #ccc; padding-bottom: 8px;}
+    .choose ul li h4{display: inline-block;
+        height:24px;line-height: 24px; margin-right: 20px; font-size: 14px; color: #999; font-weight:normal;}
+   #main .choose li .all{display: inline-block;width: 48px;height:24px;line-height: 24px; text-align: center; background: #6ca232; color: #fff; padding: 0;}
+   #main .choose a{padding: 0 7px; font-size: 14px; color: #333}
+   #main .choose a{background: #fff;}
+
+   #main .choose .sort{border-bottom: none; overflow: hidden; }
+   #main .choose .sort .sort-l{float: left;}
+   #main .choose .sort-a{width: 1180px;display: inline-block; float: left;line-height: 24px; background: #f0f0f0}
+#main .choose .sort-a a{background: #f0f0f0}
+
+#main .goods-list{overflow: hidden;width: 1280px;margin: 27px auto;}
+.goods-list ul{float: left;width: 1000px;}
+.goods-list ul li{float: left;width: 242px;margin: 0 4px 8px 4px;overflow: hidden; }
+.goods-list ul li:hover{-webkit-box-shadow:0 0 10px 4px rgba(200,200,200,0.75);;  -moz-box-shadow:0 0 10px 4px rgba(200,200,200,0.75);box-shadow: 0 0 10px 4px rgba(200,200,200,0.75); }
+.goods-list ul li .foots{height: 24px;line-height: 24px; margin-left: 3px;overflow: hidden;margin-bottom: 5px;width: 241px;font-size: 14px;}
+.foots .f-name{float: left;color: #333; display: inline-block;}
+.foots .f-price{float: right;}
+.foots-num{overflow: hidden;}
+.foots-num .f-num{padding: 2px 3px;border: 1px solid #ddd;display: inline-block;float: left;margin-left: 4px;}
+.foots-num .car{display: inline-block;float: right;height: 34px;width: 34px; background:url("../images/icons.png") no-repeat -518px -243px;}
+
+.goods-list .cookie{float: right;width: 258px;}
+.cookie .title{color: #6ca232;font-size: 14px; line-height: 39px;border-bottom: 1px solid #ccc; display: inline-block;height: 39px;}
+.cookie ul li{width: 260px;height: 69px; padding: 13px 0 10px 0;border-bottom: 1px solid #ccc;overflow: hidden;}
+.cookie ul li img{height: 70px;width: 70px; float: left;}
+.cookie .cookie-foots{width: 160px; margin-left: 10px;float: left; font-size: 14px;}
+.cookie-foots h5{color: #333; font-size: 14px; font-weight: 100;margin-bottom: 4px;}
+

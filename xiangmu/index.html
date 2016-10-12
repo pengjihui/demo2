@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="css/index.css"/>
+    <link type="text/css" rel="stylesheet" href="css/public.css"/>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+
+</head>
+<body>
+
+        <div id="title">
+            <div class="title">
+                <ul class="tit-left">
+                    <li class="area"><p class="area-p" >上海</p>
+                        <div class="global-area">
+                            <h4>热门城市:</h4>
+                            <ul class="hot-topic">
+                                <li><a href="###">上海</a> </li>
+                                <li><a href="###">广州</a> </li>
+                                <li><a href="###">北京</a> </li>
+                                <li><a href="###">苏州</a> </li>
+                                <li><a href="###">南京</a> </li>
+                                <li><a href="###">深圳</a> </li>
+                            </ul>
+                            <h4>选择城市:</h4>
+                            <ul class="choose">
+                                <li><a href="###">上海</a> </li>
+                                <li><a href="###">上海郊区</a> </li>
+                                <li class="js-btn"><a href="###"><span>></span>江苏</a>
+                                    <ul class="jiangsu">
+                                        <li><a href="###">常州</a> </li>
+                                        <li><a href="###">淮安</a> </li>
+                                        <li><a href="###">连云港</a> </li>
+                                        <li><a href="###">南京</a> </li>
+                                        <li><a href="###">南通</a> </li>
+                                        <li><a href="###">苏州</a> </li>
+                                        <li><a href="###">泰州</a> </li>
+                                        <li><a href="###">无锡</a> </li>
+                                        <li><a href="###">宿迁</a> </li>
+                                        <li><a href="###">徐州</a> </li>
+                                        <li><a href="###">盐城</a> </li>
+                                        <li><a href="###">扬州</a> </li>
+                                        <li><a href="###">镇江</a> </li>
+                                    </ul>
+                                </li>
+                                <li class="zj-btn"><a href="###">浙江<span>></span></a>
+                                    <ul class="zhejiang">
+                                        <li><a href="###">杭州</a> </li>
+                                        <li><a href="###">湖州</a> </li>
+                                        <li><a href="###">嘉兴</a> </li>
+                                        <li><a href="###">金华</a> </li>
+                                        <li><a href="###">丽水</a> </li>
+                                        <li><a href="###">宁波</a> </li>
+                                        <li><a href="###">衢州</a> </li>
+                                        <li><a href="###">绍兴</a> </li>
+                                        <li><a href="###">台州</a> </li>
+                                        <li><a href="###">温州</a> </li>
+                                        <li><a href="###">舟山</a> </li>
+                                    </ul>
+                                </li>
+                                <li class="ah-btn"><a href="###">安徽<span>></span></a>
+                                    <ul class="anghui">
+                                        <li><a href="###">安庆</a> </li>
+                                        <li><a href="###">蚌埠</a> </li>
+                                        <li><a href="###">亳州</a> </li>
+                                        <li><a href="###">池州</a> </li>
+                                        <li><a href="###">滁州</a> </li>
+                                        <li><a href="###">阜阳</a> </li>
+                                        <li><a href="###">合肥</a> </li>
+                                        <li><a href="###">淮北</a> </li>
+                                        <li><a href="###">淮南</a> </li>
+                                        <li><a href="###">黄山</a> </li>
+                                        <li><a href="###">马鞍山</a> </li>
+                                        <li><a href="###">六安</a> </li>
+                                        <li><a href="###">铜陵</a> </li>
+                                        <li><a href="###">芜湖</a> </li>
+                                        <li><a href="###">宿州</a> </li>
+                                        <li><a href="###">宣城</a> </li>
+                                    </ul>
+
+                                </li>
+                                <li><a href="###">北京</a> </li>
+                                <li><a href="###">天津</a> </li>
+                                <li class="hb-btn"><a href="###">河北<span>></span></a>
+                                    <ul class="hebei">
+                                        <li><a href="###">石家庄</a> </li>
+                                        <li><a href="###">廊坊</a> </li>
+                                        <li><a href="###">承德</a> </li>
+                                        <li><a href="###">唐山</a> </li>
+                                        <li><a href="###">保定</a> </li>
+                                        <li><a href="###">沧州</a> </li>
+                                        <li><a href="###">邯郸</a> </li>
+                                        <li><a href="###">衡水</a> </li>
+                                        <li><a href="###">秦皇岛</a> </li>
+                                        <li><a href="###">邢台</a> </li>
+                                        <li><a href="###">张家口</a> </li>
+                                    </ul>
+                                </li>
+                                <li class="gd-btn"><a href="###">广东<span>></span>
+                                    <ul class="guangdong">
+                                        <li><a href="###">深圳</a> </li>
+                                        <li><a href="###">广州</a> </li>
+                                        <li><a href="###">珠海</a> </li>
+                                        <li><a href="###">汕头</a> </li>
+                                        <li><a href="###">韶关</a> </li>
+                                        <li><a href="###">佛山</a> </li>
+                                        <li><a href="###">江门</a> </li>
+                                        <li><a href="###">湛江</a> </li>
+                                        <li><a href="###">茂名</a> </li>
+                                        <li><a href="###">肇庆</a> </li>
+                                        <li><a href="###">惠州</a> </li>
+                                        <li><a href="###">梅州</a> </li>
+                                        <li><a href="###">汕尾</a> </li>
+                                        <li><a href="###">河源</a> </li>
+                                        <li><a href="###">阳江</a> </li>
+                                        <li><a href="###">清远</a> </li>
+                                        <li><a href="###">东莞</a> </li>
+                                        <li><a href="###">中山</a> </li>
+                                        <li><a href="###">揭阳</a> </li>
+                                        <li><a href="###">云浮</a> </li>
+                                        <li><a href="###">潮州</a> </li>
+                                    </ul>
+                                </a>
+
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="span"></li>
+                    <li>满百包邮(环交内)</li>
+                    <li><a href="###">星夜达</a></li>
+                </ul>
+                <ul class="tit-right">
+                    <li><a href="denglu.html">[ 登录 ]</a> </li>
+                    <li><a href="register.html">[ 注册有惊喜 ]</a> </li>
+                    <li>|</li>
+                    <li class="notice-warp">果园公告
+                        <ul class="notice">
+                            <li ><a href="###">全仓2000元充值活动调整公告</a><span>new</span></li>
+                            <li><a href="###">全仓充值活动调整公告</a> </li>
+                            <li ><a href="###"> 天天果园400热线系统升级恢复</a> <span>new</span></li>
+
+                            <a class="ul-a" href="###">查看更多  ></a>
+
+                        </ul>
+                    </li>
+                    <li>|</li>
+                    <li><a href="###" >捐卡兑换</a></li>
+                    <li>|</li>
+                    <li class="phone">手机果园
+                        <ul class="phone-notice">
+                            <li>
+                                <span class="app">下载果园app，</span><span>即享果园特价商品</span>
+
+                                <img class="weixing" src="images/guan_ewcode1.jpg">
+                                <div class="img_app">
+                                    <a href="###"> <img src="images/guan_btn01.jpg"></a><a href="###"> <img src="images/guan_btn02.jpg"></a>
+                                </div>
+                            </li>
+                            <li class="xia">
+                                <img class="weixing" src="images/guan_ewcode2.jpg">
+                                <div class="guan-right">
+                                    <p class="right-p1">关注果园微信</p>
+                                    <p class="right-p2">优惠信息实时掌握</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>|</li>
+                    <li class="call">400-720-0770</li>
+                </ul>
+            </div>
+        </div>
+        <div id="header">
+            <div class="header">
+                <img src="images/logo.png">
+                <ul class="header-list">
+                    <li><a href="###">首页<span>Home</span></a> </li>
+                    <li><a href="###">水果<span>Fruit</span></a> </li>
+                    <li><a href="###">生鲜<span>Fresh</span></a> </li>
+                    <li><a href="###">礼品<span>Gift</span></a> </li>
+                    <li><a href="###">会员中心<span>VIP Club</span></a> </li>
+                </ul>
+                <div class="header-right">
+                    <div class="right-search">
+                        <div class="reach">
+                            <input type="text" placeholder="西梅" >
+                            <button></button>
+                        </div>
+
+                        <div class = "search">
+                            <span>热门 :</span>
+                            <a href="goods-list.html">奇异果</a>
+                            <a href="goods-list.html">苹果</a>
+                            <a href="goods-list.html">牛油果</a>
+                            <a href="goods-list.html">脐橙</a>
+                        </div>
+                    </div>
+                    <div class="shopping-car">
+                        <div class="scar"></div>
+                        <span class="span">0</span>
+
+                        <div class="account">
+                            <ul class="account-ul">
+                                <!--  <li>
+                                      <img src="images/json img/1.jpg">
+                                      <div class="product">
+                                          <p class="p-name">云南蒙自石榴</p>
+                                          <p class="p-price">￥39.90/6个</p>
+                                          <div class="dibu" ><div class="amount"> <button>-</button><span>1</span><button>+</button>
+                                          </div>
+                                              <a href="###">删除</a>
+                                          </div>
+                                      </div>
+
+                                  </li>-->
+                            </ul>
+                            <div class="settle">
+                                <div class="settle-left">共<span class="settle-span" > 0 </span>件商品</div>
+                                <div class="settle-right">商品小计  <span class="add-price"> 0 </span></div>
+                                <button><a href="shopping car.html"> 立即结算</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="banner">
+            <ul class="img-warp">
+                <li><a href="###"> <img src="images/385a6a949cca2211f8818679f3cd0f0d.jpg"></a></li>
+                <li><a href="##"> <img src="images/460368eaabc6f2009da507f8eebfeb5c.jpg"></a></li>
+                <li><a href="###"> <img src="images/e2d9731130c1400a1670aa148a1afeb8.jpg"></a></li>
+                <li><a href="###"> <img src="images/3b360be3077e3019d1577ee1d53506f3.jpg"></a></li>
+                <li><a href="###"><img src="images/54cc22e45899c54d3a12070003944016.jpg"></a></li>
+                <li><a href="###"><img src="images/6609b3335a6958d5f0e45f4579baa1d9.jpg"></a></li>
+                <li><a href="###"><img src="images/06de73eaeea822509ed30da58b5f02a7.jpg"></a></li>
+                <li><a href="###"><img src="images/881f01ccd03200aedf963bb8db5c7adf.jpg"> </a></li>
+            </ul>
+            <ul class="btn">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div id="main">
+            <ul class="main-fruit">
+                <li><a href="###"><img src="images/images/shiliu_17.png"> </a> </li>
+                <li><a href="###"><img src="images/images/xilan_19.png"> </a> </li>
+                <li><a href="###"><img src="images/images/pingguo_21.png"> </a> </li>
+                <li style = "margin-right: 0;"><a href="###"><img src="images/images/niuyouguo_23.png"> </a> </li>
+                <!--tansition 0.5s //0.5秒
+                tansform:-->
+            </ul>
+            <div class="recommend-fruit">
+                <div class="f-title" >
+                    <img class="f1" src="images/guan_t1.png">
+                    <div class="more"><a href="###">更多  ></a></div>
+                </div>
+               <!-- <div class="fruit-f1">
+                    <a href="javascript:;">
+                    <img src="images/json img/1.jpg">
+                    </a>
+                    <div class="p">
+                        <p class="p1">澳大利亚蜜桔</p>
+                        <p class="p2">￥49.90/6个</p>
+                    </div>
+                    <a href="###" class="addToShipping"></a>
+                </div>-->
+            </div>
+
+            <div class="global">
+                <div class="f-title">
+                    <img class="f1" src="images/guan_t2.png">
+                    <div class="more"><a href="###">更多  ></a></div>
+                </div>
+               <!-- <div class="fruit-f1">
+                    <img src="images/json img/1.jpg">
+                    <div class="p">
+                        <p class="p1">澳大利亚蜜桔</p>
+                        <p class="p2">￥49.90/6个</p>
+                    </div>
+                    <a href="###" class="addToShipping"></a>
+                </div>-->
+            </div>
+            <div class="fresh-food">
+                <div class="f-title">
+                    <img class="f1" src="images/guan_t3.png">
+                    <div class="more"><a href="###">更多  ></a></div>
+                </div>
+                <!--<div class="fruit-f1">
+                    <img src="images/json img/1.jpg">
+                    <div class="p">
+                        <p class="p1">澳大利亚蜜桔</p>
+                        <p class="p2">￥49.90/6个</p>
+                    </div>
+                    <a href="###" class="addToShipping"></a>
+                </div>-->
+            </div>
+            <div class="gift">
+                <div class="f-title">
+                    <img class="f1" src="images/guan_t4.png">
+                    <div class="more"><a href="###">更多  ></a></div>
+                </div>
+                <!--<div class="fruit-f1">
+                    <img src="images/json img/1.jpg">
+                    <div class="p">
+                        <p class="p1">澳大利亚蜜桔</p>
+                        <p class="p2">￥49.90/6个</p>
+                    </div>
+                    <a href="###" class="addToShipping"></a>
+                </div>-->
+            </div>
+
+        </div>
+        <div id="footer">
+            <ul class="footer-ul">
+                <li class="li1"></li>
+                <li class="li2"></li>
+                <li class="li3"></li>
+                <li style="border:none" class="li4"></li>
+            </ul>
+            <div class="footer-main">
+                <div class="footer-left">
+                    <div class="logo">
+                    </div>
+                    <img src="http://img9.fruitday.com/guan_tel.png">
+                    <div class="f-call">
+                        服务时间  <span>08:00 - 22:00</span>
+                    </div>
+                </div>
+                <ul class="footer-center">
+                    <li>
+                        <img src="http://img9.fruitday.com/guan_ewcode1.jpg">
+                        <span>天天果园官方微信</span>
+                    </li>
+                    <li>
+                        <img src="http://img9.fruitday.com/guan_ewcode2.jpg">
+                        <span>天天果园APP</span>
+                    </li>
+                </ul>
+                <ul class="footer-right">
+                    <li>
+                        <h3>购物指南</h3>
+                        <a href="###">新用户注册</a>
+                        <a href="###">在线下单</a>
+                        <a href="###">支付方式</a>
+                    </li>
+                    <li>
+                        <h3>配送说明</h3>
+                        <a href="###">运费说明</a>
+                        <a href="###">运费方式</a>
+                        <a href="###">发票说明</a>
+                    </li>
+                    <li>
+                        <h3>售后服务</h3>
+                        <a href="###">退换货规则</a>
+                        <a href="###">服务保障承诺</a>
+                        <a href="###">验货与签收</a>
+                    </li>
+                    <li>
+                        <h3>企业服务</h3>
+                        <a href="###">企业订购</a>
+                        <a href="###">公司企业</a>
+                        <a href="###">定制专区</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="bottom">
+            <p class="bottom-p1">版权所有 © 2015天天果园  保留所有权利 | 沪ICP备12042163</p>
+            <p class="bottom-p2">天天果园  鲜果网购</p>
+            <div class="license">
+                <a href="###"><img src="images/images/bottom_30.png"></a>
+                <a href="###"><img src="images/wgdjp.png"> </a>
+            </div>
+        </div>
+        <div id="fixed">
+            <a href="###" class="card"></a>
+            <a href="###" class="speak"></a>
+            <a href="###" class="go-top"></a>
+        </div>
+
+        <div class="addCar-warp">
+            <div class="addCar">
+                <div class="title"><span class="concel"></span></div>
+                <div class="main">
+                    <h2><span></span><b>加入购物车成功!</b></h2>
+                    <p>购物车中共<span class="num"> 1 </span>件商品 | 商品小计<span class="s-price">￥169.60</span></span></p>
+                    <form>
+                        <button class="btn1">继续购物</button>
+                        <button class="btn2">去结算</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+<span class="iconfont ">&#xe603;</span>
+</body>
+</html>
+<script>
+    //分页
+    $.ajax({//获取json数据必写哦！！！
+        type:"get",
+        url:"json/product.json",
+        dataType:"json",
+        success:function(data){//consol一下是很重要的！！！！！！
+            //假如一页获取m条
+            for(var i=(pageIndex-1)*20;i<pageIndex*20;i++){//加载json里面的图片，json里面数是从零开始的
+
+                var html= "<li><a href=\"###\"><img src=\""+data[i].img+"\"/></a>";//当遇到引号时记得要转义
+                html+="<dl><dd><a href=\"###\" class=\"dl_a color\">"+data[i].name+"</a></dd>";
+                html+="<dd class=\"right_sc_mainPic_dd2\"> 商城价：<span class=\"money\">￥"+data[i].money+"</span>";
+                html+="<a href=\"###\" class=\"intoCar  color3\">加入购物车</a></dd></dl></li>";
+                proUl.innerHTML+= html;//通过不断地加载，但是点击之后ul又会清空来实现分页的效果
+            }
+
+
+
+
+</script>

@@ -1,0 +1,29 @@
+
+
+#banner{width: 100%;height: 400px; overflow: hidden;position: relative;}
+    .img-warp{ height: auto; position: absolute; left: 0; top: 0; width: 100%; white-space: nowrap; font-size: 0; vertical-align: top}
+        .img-warp li{display: inline-block;width: 100%; overflow: hidden; height: 400px;}
+        #banner img{width: 1920px; height: 400px; position: relative; left: 50%; margin-left: -960px;}
+    .btn{width: 300px;height: auto;  position: absolute;bottom: 20px; left: 50%; margin-left: -140px;}
+         .btn li{float: left; height:18px; width: 18px;border-radius:50%;border: 1px solid #6ca232; background: rgba(0,0,0,0); margin-left: 14px; cursor: pointer }
+         .btn .active{background: #6ca232;}
+
+#main{height: auto; width: 1280px; margin: 0 auto;}
+    .main-fruit{overflow: hidden;}
+    .main-fruit li{float: left; margin-right: 25px; margin-top: 10px;}
+
+    .recommend-fruit,.global,.fresh-food,.gift{width: 1290px; margin-top:50px; border-top: 1px solid #cccccc; overflow: hidden;}
+    .f-title{overflow: hidden;}
+        .f1{display: block; margin:16px 0 8px 0; float: left;}
+         .more a{float: right;margin:16px 0 8px 0;color: #000;}
+         .fruit-f1{width: 248px;height: auto;overflow: hidden; margin:0 5px 5px; float: left;}
+         .fruit-f1 img{transition: 0.3s; }
+.fruit-f1 img:hover{ -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); /*-webkit-transform: rotate(360deg);*/ /*transform: scale(1.1)*/}
+            .fruit-f1 .p{width: 160px; height:62px; float: left;}
+            .fruit-f1 .p1{margin: 11px 0 12px 3px; }
+            .addToShipping{display: inline-block;height: 32px; width: 40px; margin-top: 14px; background: url("../images/icons.png") no-repeat -518px -243px; float: right;}
+
+
+
+
+

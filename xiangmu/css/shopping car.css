@@ -1,0 +1,47 @@
+#header{width: 100%;height: auto;box-shadow:0 2px 8px rgba(230,230,230,0.75); border-bottom: 1px solid #f1f1f1 }
+.header{width: 1280px; height: 74px; padding:23px 0;margin: 0 auto;overflow: hidden;}
+.header img{float: left;}
+.header ul{float: right;height: 57px; background: url("../images/icons.png") no-repeat -27px -887px;width: 380px;}
+.header ul li{float: left;position: relative; height: 77px;width: 64px; margin-right: 92px; text-align: center;}
+.header ul li span{color: #fff;font-size: 20px; display: inline-block;margin-top: 5px;}
+.header ul li p{color: #333;margin-top: 15px; white-space: nowrap}
+.header ul li .my-car{color: #6ca232;}
+
+
+.main{width: 1000px;height: auto;margin: 0 auto;}
+.main .title{width: 1000px;height: 25px;margin-top: 50px;overflow: hidden;}
+.title h3{padding-left: 32px;height: 25px;line-height: 25px;font-size: 20px;background: url("../images/icons.png") no-repeat -525px -332px;font-weight: normal; color: #333; float: left;}
+.title a{display: inline-block;float: right; font-size: 14px;color: #6ca232;}
+.order-warp{width: 1000px;border: 1px solid #ccc; margin-top: 15px;}
+.order-images{width: 1000px;background: #f1f1f1;line-height: 48px;overflow: hidden; border-bottom: 1px solid #ccc;}
+.order-images ul li{float: left; font-size: 14px;}
+.order1{margin-left: 180px;}
+.order2{margin-left: 245px;}
+.order3{margin-left: 75px;}
+.order4{margin-left: 61px;}
+.order5{margin-left: 61px;}
+.order6{margin-left: 88px;}
+.order-ul .li-warp{ width: 1000px;height: 131px;border-bottom: 1px solid #ccc;}
+.order-ul li ul{overflow: hidden;}
+.order-ul li ul li{float: left; color: #333; font-size: 14px;margin-top: 11px;}
+.order img{width: 110px;height: 110px;}
+.order {display: inline-block;margin-left: 51px;}
+.order-name{margin-top: 11px; width: 290px}
+.order-spc{margin-top: 11px; width: 88px;}
+.order-ul .order-price{ color: #6ca232;font-weight: bold;width: 110px;}
+.order-num{border: 1px solid #ccc}
+.order-num a{display: inline-block; padding: 4px 8px;background: #eee;}
+.order-num span{display: inline-block;width: 30px;text-align: center;}
+.order-ul .order-old-price{margin-left: 25px;color:#6ca232; font-weight: bold}
+.operation{margin-left: 90px;}
+.activity {background: #fff9eb;width: 1000px;height: 48px;line-height: 48px; font-size: 14px;}
+.activity span{display: inline-block;margin-left: 60px; background: #64a131; height: 20px;line-height: 20px; padding: 0 25px;color: #fff;
+border-radius: 4px;}
+.activity a{color: #64a131;margin-left: 20px;}
+.activity a:hover{text-decoration: underline;}
+
+.settle-all{width: 1000px;height: 50px;background: #f5ffed; border: 1px solid #6ca232; margin-top: 20px; line-height: 50px;overflow: hidden;}
+.settle-all p{display: inline-block;float: right;font-size: 14px;}
+.settle-all a{display: inline-block;float: right; padding: 0 50px;background: #6ca232; margin-left: 15px; color: #fff;font-size: 20px;}
+.settle-all p span{font-weight: bold; color:#6ca232; }
+.settle-all b{font-size: 22px; color: #6ca232;}
