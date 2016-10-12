@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+        required://自动提示和验证
+        pattern://正则验证
+        autocomplace  = off //关闭前面输入的历史信息
+
+
+
+        -->
+    <form id="form1" action="" method="get">
+        <input type="email" name="email" id="" value="" required ="required" placeholder="请输入email" formnovalidate>
+        <input type="tel" name="tel" required = "required" pattern="^1[3|5|7|8]\d{9}$" placeholder="请输入手机号" autocomplete="off">
+        <input type="url" name="url" required = "required" placeholder="请输入url" />
+        <label>
+        <input type="range" name="range" required = "required" min = "1" max = "10" />
+        </label>
+        <input type="number" min = "1" max = "10" step="2"/>
+        <input type="submit" value="submit">
+    </form>
+    <script>
+
+    </script>
+</body>
+</html>

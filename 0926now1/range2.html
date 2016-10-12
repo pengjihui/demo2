@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+    document.querySelector("#red")
+-->
+    <form action="" method="get">
+        红:<input type="range" id="red" class="range"  min = "0" max="255" step="1" value="0"/><br/>
+        绿:<input type="range" id="green" class="range" min = "0" max="255" step="1" value="0"/><br/>
+        蓝:<input type="range" id="blue" class="range" min = "0" max="255" step="1" value="0"/><br/>
+        透明度:<input type="range" id="op" class="range" min = "0" max="1" step="0.1" value="0"/><br/>
+
+
+        <!--<input type="submit" value="submit"/>-->
+    </form>
+    <script>
+        function setColor() {
+            var red = document.getElementById("red").value;
+            var green = document.getElementById("green").value;
+            var blue = document.getElementById("blue").value;
+            /*var op = document.getElementById("op").value;*/
+            var op= 0;
+            setInterval(function () {
+                op+=0.1;
+                document.body.style.backgroundColor = "rgba("+red+","+green+","+blue+","+op+")";
+            },500);
+
+            /*document.body.style.backgroundColor ="rgba(0,0,0,1)"*/
+        }
+        setColor();
+       var oRange =  document.getElementsByClassName("range");
+        for(var i = 0;i<oRange.length;i++){
+            oRange[i].oninput = function () {
+                setColor();
+            }
+        }
+
+    </script>
+</body>
+</html>

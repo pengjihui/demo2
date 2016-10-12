@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function getQuerystring(name){
+            var url = location.search.substr(1);
+            var reg = new RegExp("(^|&)"+name+"=([^&]*)(&|$)","i");
+            var res = url.match(reg);
+            if(res!=null)
+            {
+                return res[2];
+            }
+            return null;
+        }
+        var val = getQuerystring("name");
+        console.log(val);
+
+    </script>
+</body>
+</html>
